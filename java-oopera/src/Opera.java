@@ -8,4 +8,8 @@ public class Opera extends MusicalShow{
         super(title, duration, director, actors, librettoText, musicAuthor);
         this.choirSize = choirSize;
     }
+
+    public int getChoirSize() {
+        return choirSize;
+    }
 }

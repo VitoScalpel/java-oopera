@@ -8,4 +8,8 @@ public class Ballet extends MusicalShow{
         super(title, duration, director, actors, librettoText, musicAuthor);
         this.choreographer = choreographer;
     }
+
+    public Person getChoreographer(){
+        return choreographer;
+    }
 }
